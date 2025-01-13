@@ -1,0 +1,67 @@
+
+.anim-bg-gradient {
+  width: 50%;
+  cursor: pointer;
+  background: linear-gradient(120deg, darkmagenta, crimson, orange);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+  padding: 200px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: black;
+  border: 1px solid black;
+}
+
+.anim-bg-gradient:hover {
+  background-position: 0 0;
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.top-bar{
+  width: 75%;
+  display: flex;
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+.bot-bar{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.text-dark {
+  color: #212529;
+}
+
+
+
+/* .anim-bg-gradient: {
+  background-position: 0 0;
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+} */
+
+
+/* demo stuff */
+/* body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgrey;
+} */

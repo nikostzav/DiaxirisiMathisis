@@ -1,0 +1,9 @@
+.quotes{
+    touch-action: none;
+    background-color: lightblue;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
